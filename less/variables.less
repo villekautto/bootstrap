@@ -2,14 +2,14 @@
 // Variables
 // --------------------------------------------------
 
-@tkFuksia:              #FF6699;
-@tkTaivas:              #00CCFF;
-@tkAurinko:             #FF9900;
-@tkLime:                #CCCC00;
-@tkMustikka:            #996699;
-@tkHiili:               #333333;
-@tkSavi:                #CCCCCC;
-@tkGoji:                #FF3333;
+@tkFuksia:              #F55096;
+@tkTaivas:              #00C1DE;
+@tkAurinko:             #FFA300;
+@tkLime:                #C3D500;
+@tkMustikka:            #A35DB4;
+@tkHiili:               #3D3834;
+@tkSavi:                #BDC6C3;
+@tkGoji:                #FF4337;
 
 // Global values
 // --------------------------------------------------
@@ -41,7 +41,8 @@
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
-@textColor:             @grayDark;
+@textColor:             @tkHiili;
+//@textColor:             @grayDark;
 
 
 // Links
@@ -64,7 +65,8 @@
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
 @headingsFontWeight:    bold;    // instead of browser default, bold
-@headingsColor:         inherit; // empty to use BS default, @textColor
+@headingsColor:         @tkFuksia; // empty to use BS default, @textColor
+//@headingsColor:         inherit; // empty to use BS default, @textColor
 
 
 // Component sizing
@@ -97,7 +99,8 @@
 @btnBackgroundHighlight:            darken(@white, 10%);
 @btnBorder:                         #ccc;
 
-@btnPrimaryBackground:              @linkColor;
+@btnPrimaryBackground:              @tkTaivas;
+//@btnPrimaryBackground:              @linkColor;
 @btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
 
 @btnInfoBackground:                 #5bc0de;
